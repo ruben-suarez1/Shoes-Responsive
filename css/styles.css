@@ -76,13 +76,13 @@ img{
 /*Header*/
 .header {
     background-color: var(--colorF);
-    padding: calc( var(--separacion) * 1.8) 0;
+    padding: calc( var(--separacion) * 2) 0;
     color: var(--colorB);
 }
 
 @media (min-width: 768px) { 
     .header {
-        padding: calc( var(--separacion) * 2.5) 0;
+        padding: calc( var(--separacion) * 1.6) 0;
     }
 }
 
