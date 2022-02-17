@@ -269,7 +269,7 @@ img{
 
 .header-modelo {
     font-size: 6rem;
-    margin-bottom: var(--separacion);
+    margin-bottom: 0;
 }
 
 .listado-modelos {
@@ -464,6 +464,9 @@ img{
 }
 
 /*Inicio Footer*/
+.site-footer{   
+    background-color: var(--colorF);
+}
 
 @media (min-width: 768px) { 
     .flex-footer {
@@ -471,6 +474,7 @@ img{
         flex-direction: row;
         justify-content: space-around;
         margin-top: var(--separacion);
+        color: var(--colorB);
     }
 }
 
@@ -478,14 +482,13 @@ img{
     display: block;
     text-align: center;
     text-decoration: none;
-    color: var(--colorN);
 }
 @media (min-width: 768px) { 
     .footer-menu a {
         text-align: left;
         font-size: 1.8rem;
         text-decoration: none;
-        color: var(--colorN);
+        color: var(--colorB);
     }
 }
 .site-footer h3 {
@@ -506,4 +509,11 @@ img{
 /*Tienda*/
 .texto-tienda {
     text-align: center;
+}
+
+.subnombre-producto-tienda {
+    font-style: italic;
+    font-size: 2.5rem;
+    text-indent: 26rem;
+    margin: 0;
 }
